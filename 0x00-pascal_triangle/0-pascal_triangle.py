@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def pascal(n):
+def pascal_triangle(n):
     array = []
     if(n == 0):
         return array
