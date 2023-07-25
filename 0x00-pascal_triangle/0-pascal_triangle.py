@@ -2,7 +2,7 @@
 
 def pascal_triangle(n):
     triangle = []
-
+    if(n <= 0): return triangle
     for row in range(num_rows):
         current_row = [1]
         if triangle:
