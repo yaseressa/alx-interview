@@ -12,4 +12,4 @@ def pascal_triangle(n):
             current_row.append(1)
         triangle.append(current_row)
 
-    return(i)
+    return(triangle)
