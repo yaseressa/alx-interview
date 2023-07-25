@@ -13,5 +13,3 @@ def pascal_triangle(n):
         triangle.append(current_row)
 
     return(triangle)
-ine = int(input("Enter: "))
-print(pascal_triangle(ine))
