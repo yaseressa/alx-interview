@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 def pascal_triangle(n):
     triangle = []
     if type(n) is not int or n <= 0:
